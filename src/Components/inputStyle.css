@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,900');
+
+.legend-input {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.input__component {
+  width: 250px;
+  height: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  border: 1.2px solid #a5a5a5;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  box-sizing: border-box;
+  color: #3b3b3b;
+
+}
+
+.input__component:focus {
+  border: 1.2px solid #5f27cd;
+  background-color: #f7f7f7;
+}
+

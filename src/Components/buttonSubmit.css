@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,900');
+
+.button__submit {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.button__submit--allowed {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #5f27cd;
+  color: #FFF;
+  transition: background-color .3s ease-in-out;
+}
+.button__submit--denied {
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 250px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ee5253;
+  transition: background-color .3s ease-in-out;
+}
+
+.button__submit--denied:hover { background-color: #b33e3e }
+.button__submit--allowed:hover { background-color: #491f9c }
